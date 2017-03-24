@@ -1,0 +1,12 @@
+VERSION BUILD=8070701 RECORDER=CR
+URL GOTO=https://parkmerced.securecafe.com/residentservices/parkmerced/paymentcomplete.aspx
+TAG POS=1 TYPE=A ATTR=ID:paymentsaspx_MenuLink
+TAG POS=1 TYPE=BUTTON ATTR=TXT:×
+TAG POS=1 TYPE=A ATTR=TXT:Make<SP>a<SP>One-time<SP>Payment
+TAG POS=1 TYPE=SELECT FORM=ID:paymentOneTimeStep1 ATTR=ID:PayAccount CONTENT=%3989#VISA<SP>XXXX-1234#CC#VISA
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:paymentOneTimeStep1 ATTR=ID:PrepayAmount CONTENT=0.22
+TAG POS=1 TYPE=BUTTON FORM=ID:paymentOneTimeStep1 ATTR=ID:btnNext
+TAG POS=1 TYPE=BUTTON FORM=ID:paymentOneTimeStep1 ATTR=ID:hiddenButton
+TAG POS=1 TYPE=LABEL ATTR=TXT:I<SP>have<SP>read<SP>and<SP>accept<SP>the<SP>Terms<SP>and*
+TAG POS=1 TYPE=INPUT:CHECKBOX ATTR=ID:chkAgree CONTENT=YES
+TAG POS=1 TYPE=BUTTON ATTR=ID:SubmitPayment
