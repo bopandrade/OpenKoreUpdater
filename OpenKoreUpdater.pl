@@ -1,3 +1,10 @@
+#This file reads into an unpacked ragnarok online client
+#extracts keys used for packet XORing
+#extracts packets length
+#checks expected packets sizes
+#if everything seems correct, builds Send.pm and Receive.pm for bRO
+#
+#
 #Criando diretorios 
 open HEX, "<", "Ragexe.pb.1.exe" or die $!;
 mkdir 'tables';
