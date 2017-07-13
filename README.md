@@ -1,6 +1,4 @@
 # Scripts
-Small scripts made in different languages for a specific purpose.
-
 #### ImperiaOnline.au3
 A fully functional AutoIt bot for the Imperia Online game. It worked based of conditions deducted by screen color.
 
